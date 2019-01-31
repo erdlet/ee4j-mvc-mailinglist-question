@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>EE4J MVC Example</title>
-    <link href="${mvc.basePath}/webjars/materializecss/1.0.0/css/materialize.css" rel="stylesheet">
-    <link href="${mvc.basePath}/assets/css/styles.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/webjars/materializecss/1.0.0/css/materialize.css"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+          href="${pageContext.request.contextPath}/assets/css/styles.css">
 </head>
 <body>
 <h1>Hello World!</h1>
